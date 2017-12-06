@@ -1,2 +1,0 @@
-# OResume
-Online Resume
