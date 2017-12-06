@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Your description goes here">
+  <meta name="author" content="HTML5">
+  <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+
+  <title>Sophia Chow</title>
+
+  <!-- external CSS link -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+
+
+  <!-- font -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Damion' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <!--font-awesome-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+  <!-- Add jQuery library -->
+<script type="application/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+
+
+<link href="lightbox/css/lightbox.css" rel="stylesheet">
+<!--<script type="application/javascript" src="http://tylerteaching.com/coolbox/coolBox.js"></script>-->
+
+
+</head>
+
+<body>
+<div id="wrapper">
+
+<!--header-->
+  <a name="home"></a>
+  <header id="page_header">
+    <div class="header_container">
+
+     <nav>
+        <li id="logo"><a href="#home">Sophia Chow</a></li>
+        <p class="blurb">Web developer    |    Artist   |    Teacher</p>
+        <p class="webdev">"As a lover of learning, creating, and building genuine connections, I want to merge two of my passions of web development and teaching to make a positive mark in this world. Using my skills in these areas, I want to make life the slightest bit easier for the people around me."</p>
+      <!--<input type="checkbox" id="css-toggle-menu" name="css-toggle-menu">-->
+        <ul class="topnav">
+        <!-- <li id="logo"><a href="#home">Sophia Chow</a></li> -->
+          <li><a href="#about_me">ABOUT ME</a></li>
+          <li><a href="#interests">SKILLS</a></li>
+          <li><a href="#work">PROJECTS</a></li>
+          <li><a href="#form_main">CONTACT</a></li>
+          <li class="icon">
+    		<a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">&#9776</a></li>
+        </ul>
+       <!--  <lable for="css-toggle-menu" id="css-toggle-menu"></lable> -->
+
+      </nav>
+      </div>
+
+  </header>
+
+
+ <!--carousel-->
+<div id="slider-container">
+<!--<div style="position: relative">-->
+  <div class="slide"><img id="slide_1" src="images/cover0.jpg"/></div>
+  <div class="slide"><img id="slide_2" src="images/cover1.jpg"/></div>
+  <div class="slide"><img id="slide_3" src="images/cover2.jpg"/></div>
+  <div class="slide"><img id="slide_4" src="images/cover3.jpg"/></div>
+</div>
+</div>
+
+ <ol>
+        <li id="circle1"></li>
+        <li id="circle2"></li>
+        <li id="circle3"></li>
+        <li id="circle4"></li>
+ </ol>
+
+
+
+<!--about me-->
+<a name="about_me"></a>
+<section class="about_me">
+    <div class="about_me_background">
+      <img class="image1" src="images/linesme.png" style: 'repeat-y'><img class="image2" src="images/linesme.png" style: 'repeat-y'>
+      	<div class="about_me_text">
+        	<h2>ABOUT ME</h2>
+       		 <p>Born in Alberta, Canada and raised in South America and Texas has made me not only a real southern girl but also extremely cultured. My parents are from Hong Kong and I grew up speaking Cantonese. At a very young age I was exposed to English and French from Canada, Spanish and castillian Spanish from South America and Texas, and Cantonese and Mandarin Chinese from my family. In my 10 years as a public school teacher, I gathered essential skills in effective communication, motivation, project management, team building, multi-tasking, organization, and patience. Coming from the education world, I saw such a disparity between the technology that was available to the world and the technology that was being used in the classroom both as a teaching tool and implementation/organization tool. I was always interested in computer programming and I finally tool the jump in May of 2017 to the world of coding. I want to eventually merge my two passions to make a positive impact in the education world.</p>
+      	  	<div class="read_more_btn"><a href="https://profiles.generalassemb.ly/profiles/sophia-chow" target="_blank">READ MORE<i class="fa fa-arrow-right"></i></a></div>
+      	</div>
+    </div>
+</section>
+
+
+<!--portfolio-->
+<a name="interests"></a><section class="interests">
+  <h2>SKILLS</h2>
+  <div class="skills-container">
+    <div class="skills">
+      <h3>Languages:</h3>
+      <p>JavaScript(ES6), jQuery, Python, React.js, React-Native, HTML5/CSS3, SASS/SCSS, AJAX/JSON</p>
+    </div>
+    <div class="skills">
+      <h3>Tools:</h3>
+      <p>Firebase, Heroku, MongoDB, Git, Office, SQL</p>
+    </div>
+    <div class="skills">
+      <h3>Other:</h3>
+      <p>Chinese, Spanish, Project Management, Customer Relations, Organization, Piano Player, Ukulele Player, Poet, Painter, Singer</p>
+    </div>
+  </div>
+  <div class="read_more_btn"><a href="https://docs.google.com/document/d/1c64Qn-KquWWBP5DP5qgXFOrKidc7Jzw7QT-pr0k4spQ/edit?usp=sharing" target="_blank">RESUME<i class="fa fa-arrow-right"></i></a></div>
+
+</section>
+
+
+<!--games-->
+<a name="work"></a><section class="container_work">
+    <h2>PROJECTS</h2>
+    <div class="work_container">
+
+    		<div class="work ch-img-1">
+    			<div class="ch-info">
+            <a class="work_btn" href="https://voxbox-709f7.firebaseapp.com/" target="_blank">
+        			<h3>VoxBox</h3>
+        			<p>An app that gives a voice to children in Early Childhood who are nonverbal and Autistic</p>
+            </a>
+    			</div>
+    		</div>
+
+    		<div class="work ch-img-2">
+    			<div class="ch-info">
+            <a class="work_btn" href="https://nommad-app.firebaseapp.com/" target="_blank">
+        			<h3>Nommad</h3>
+        			<p>An app that searches for food trucks near you</p>
+            </a>
+    			</div>
+    		</div>
+
+    		<div class="work ch-img-3">
+    			<div class="ch-info">
+    			<h3>Coming Soon</h3>
+    			<p>by Sophia Chow <a href="#"></a></p>
+    			</div>
+    		</div>
+
+    </div>
+</section>
+
+
+<!--form-->
+
+<!--   <section class="form_main">
+    <h2>CONTACT ME</h2>
+    <div id="form-div">
+
+      <form class="form" id="form1">
+		<p class="name">
+        <input name="name" type="text" placeholder="Name" id="name"/>
+        </p>
+
+        <p class="email">
+          <input name="email" type="email" id="email" placeholder="Email"/>
+        </p>
+
+        <p class="text">
+          <textarea name="text" id="comment" placeholder="Comment"></textarea>
+        </p>
+
+
+        <div class="submit">
+          <input type="submit" value="SEND" id="button-blue"/>
+          <div class="ease"></div>
+        </div>
+      </form>
+
+    </div>
+  </section> -->
+
+<!--footer-->
+  <a name="form_main"></a>
+  <footer>
+    <h2>Contact Me</h2>
+    <div class="icon-container">
+    	<a href="https://www.linkedin.com/in/sophia-chow/" target="_blank"><img src="images/linkedin-logo.svg"/></a>
+      <a href="https://github.com/so-chow" target="_blank"><img src="images/github-logo.svg"/></a>
+      <a class="ga-logo" href="https://profiles.generalassemb.ly/profiles/sophia-chow" target="_blank"><img src="images/ga.svg"/></a>
+      <a href="mailto:sophia.t.chow@gmail.com" target="_blank"><img src="images/email.svg"/></a>
+      <a href="https://medium.com/@sophia.t.chow" target="_blank"><img src="images/blog-comment-speech-bubble-symbol.svg"/></a>
+    </div>
+  </footer>
+
+
+
+</div>
+<!-- <script src="lightbox/js/lightbox.js"></script> -->
+</body>
+</html>

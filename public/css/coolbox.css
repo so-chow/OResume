@@ -1,0 +1,79 @@
+/* COOLBOX */
+
+div#cb_viewport
+{
+	background: #000000;
+	bottom: 0;
+	display: block;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+div.cb
+{
+	background: #FFFFFF;
+	border: solid 10px #FFFFFF;
+	display: none;
+	height: 24px;
+	overflow: none;
+	position: absolute;
+	width: 24px;
+	z-index: 1001;
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+	div.cb_content
+	{
+		display: none;
+		position: absolute;
+		z-index: 1002;
+	}
+	
+		div.cb_title
+		{
+			background: #000000;
+			bottom: 0;
+			color: #FFFFFF;
+			display: block;
+			font-size: 11px;
+			padding: 15px;
+			position: absolute;
+		}
+	
+	div.switch, div.close
+	{
+		background: #FFFFFF;
+		bottom: -35px;
+		color: #666666;
+		font-size: 12px;
+		font-weight: bold;
+		right: 20px;
+		padding: 10px;
+		position: absolute;
+		
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	}
+	
+	div.close
+	{
+		bottom: auto;
+		right: 0;
+		padding: 5px 10px;
+		top: -25px;
+	}
+	
+		div.switch a, div.close a
+		{
+			color: #666666;
+			font-size: 12px;
+			font-weight: bold;
+			text-decoration: none;
+		}
